@@ -1,0 +1,11 @@
+.Layout{
+    display: flex;
+}
+
+.LeftPanel{
+    float: left;
+}
+
+.RightPanel{
+    float: right;
+}
