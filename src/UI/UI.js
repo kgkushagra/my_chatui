@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import ContactsList from './LeftPanel/ContactsList';
 import IndividualChat from './RightPanel/IndividualChat';
 import classes from './UI.module.css';
-import faker from 'faker';
 import {isHost,contacts} from '../generateFakeData';
+
 export default class UI extends Component {
     state={
         users:{
@@ -12,17 +12,24 @@ export default class UI extends Component {
                 name:isHost.name,
                 img:isHost.avatar,
             },
+
             
         }
     };
+
+    
+    
+
+    
     render() {
-        //console.log(this.state.users);
+       // console.log(contacts);
 
         return (
             <div className={classes.Layout}>
 
                 <div className={classes.LeftPanel}>
                      <ContactsList users={this.state.users}/>
+                     
                 </div>
                 <div className={classes.RightPanel}>
                     <IndividualChat />

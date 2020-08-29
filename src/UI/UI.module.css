@@ -70,11 +70,11 @@ main {
     background-position: 0.45rem 0.35rem;
     padding-left: 2rem;
 }
-.contact-boxes {
+.contactBoxes {
     overflow-y: auto;
     flex: 1;
 }
-.contact-box {
+.contactBox {
     background: #fff;
 
     padding: 0.75rem 0.75rem;
@@ -82,8 +82,8 @@ main {
     align-items: center;
     cursor: pointer;
 }
-.contact-box:hover,
-.contact-box.active {
+.contactBox:hover,
+.contactBox.active {
     background: #ebebeb;
 }
 
