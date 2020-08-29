@@ -6,7 +6,7 @@ const contact=({userName,userAvatar})=>{
     return (
         <div className={classes.contactBox}>
             <img src={userAvatar} alt={userName} className={classes.avatar}/>
-            <p>{userName}</p>
+            <p className={classes.contactText}>{userName}</p>
             
         </div>
     );

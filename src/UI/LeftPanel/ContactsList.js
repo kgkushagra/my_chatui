@@ -24,7 +24,7 @@ export default class ContactsList extends Component{
 
         return(
             <div>
-                <div>{renderedList}</div>
+                <div className={classes.contactboxheader}>{renderedList}</div>
                 <div className={classes.contactBoxes}>{list}</div>
             </div>
             
