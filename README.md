@@ -14,7 +14,7 @@ You will also see any lint errors in the console.
 
 
 # About the Project
-1.Used [faker](https://www.npmjs.com/package/faker) to generate fake user names and chats  <br/>
-2.A user can enter his/her message and will receive a automatic reply to that.  <br/>
-3.Downside to using faker is that the data changes data automatically upon refresh.   <br/>
+1. Used [faker](https://www.npmjs.com/package/faker) to generate fake user names and chats.  <br/>
+2. A user can enter his/her message and will receive a automatic reply to that.  <br/>
+3. Downside to using faker is that the data changes data automatically upon refresh.   <br/>
 
