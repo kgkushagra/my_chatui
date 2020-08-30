@@ -17,6 +17,10 @@
 .RightPanel{
     display: flex;
     flex:6;
+    position: relative;
+    left: 2rem;
+    top:0.4rem;
+    
 }
 
 * {
@@ -24,7 +28,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    background:rgb(64, 64, 64);
+    background:rgba(230, 230, 230,0.4)
+    ;
     ;
 
     
@@ -61,7 +66,7 @@
     align-items: center;
     cursor: pointer;
     background-color:rgb(204, 204, 204);
-    
+    flex-basis: 600px;
 
 }
 .contactBox:hover,
@@ -76,9 +81,9 @@
 
 
 
-.right-section {
+/* .right-section {
     width: 100%;
-}
+} */
 .contactboxheader {
     display: flex;
     justify-content: space-between;
@@ -90,4 +95,70 @@
     background:none;
 }
 
+.chatUI{
+    flex-basis:60rem;
+    border:1px solid white;
+    background-color:rgb(204, 204, 204);
+    padding:0px 10px;
+    border-radius:10px;
 
+}
+.Chats{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+}
+.hostChat{
+    align-self: flex-end;
+    background-color: rgba(59, 179, 0,0.7);
+    
+    border:none;
+    border-radius:6px;
+    margin-right: 5px;
+    padding:2px;
+    font-size: 14px;
+    border:0;
+}
+
+.userChats{
+    align-self: flex-start;
+    background-color:rgba(255, 77, 77,0.7) ;
+    border-radius:5px;
+    margin-left: 5px;
+    padding:2px;
+}
+
+
+input{
+    position: absolute ;
+    bottom:40px;
+    width:50rem;
+    left:7rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    
+    padding: 0.5rem 1rem;
+
+    background-image: url(../assets/send.svg);
+    background-repeat: no-repeat;
+    background-size: 1rem, 1rem;
+    background-position:98%;
+    background-color: rgba(153, 153, 153,0.5)  ;
+}
+input:focus{
+    outline:none;
+}
+
+.selectedContact{
+    flex-basis: 500rem;
+    width: 60rem;
+    margin-top: 0px;
+}
+
+
+.date{
+    font-size: 9px ;
+    position: relative;
+    right:0px;
+}
